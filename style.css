@@ -1,0 +1,314 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.ptb-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* ++++++++++++++++++++++++++++++
+    SECTION 1 START
++++++++++++++++++++++++++++++++++ */
+.sec1{
+    background-size: cover;
+    background-image: url(bgd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* ++++++++++++++++++++++++++++++
+    NAVBAR STARTS
++++++++++++++++++++++++++++++++++ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+header .logo{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+header .logo .achoo a{
+    font-family: 'PT Mono', monospace;
+    text-decoration:none;
+    font-size: 35px;
+    font-weight: BOLD;
+    color: white;
+}
+header .logo .beta {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15PX;
+    color: rgb(48, 41, 41);
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+header .contents{
+    justify-content: space-evenly;
+}
+header .contents a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(194, 189, 189);
+    font-weight: bold;
+}
+/* .contents a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    background-color: #fb6d9d;
+    transition: transform 0.25s ease-out;
+}
+.contents a:hover::after{
+    transform: scaleX(1);
+
+} */
+
+header .contents a select{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    background-color: #545557;
+    border-color: #7c7e81;
+    border-radius: 50px;
+    border: none;
+}
+
+/* ++++++++++++++++++++++++++++++
+    NAVBAR ENDS
++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++
+    FRONT PAGE MESSAGE STARTS
++++++++++++++++++++++++++++++++++ */
+.mid{
+    text-align: center;
+    padding-top: 180px;
+}
+.mess{
+    padding: 10px;
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.trial{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #fb6d9d;
+    color: rgb(248, 243, 243);
+    border: none;
+}
+/* ++++++++++++++++++++++++++++++
+    FRONT PAGE MESSAGE ENDS
++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++
+    SECTION 1 ENDS
++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++
+    SECTION 2 STARTS
++++++++++++++++++++++++++++++++++ */
+.sec2{
+    padding: 100px;
+    text-align: center;
+}
+
+.sec2 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500 ;
+    font-size:30px ;
+    padding: 20px;
+    color: rgb(92, 85, 85);
+}
+.sec2 p{
+    font-family: 'Inter', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(151, 148, 148);
+    font-size: 15px;
+    word-spacing: 1px;
+}
+/* ++++++++++++++++++++++++++++++
+    SECTION 2 ENDS
++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++
+    SECTION 3 STARTS
++++++++++++++++++++++++++++++++++ */
+.sec3{
+    background-color: #eef2f5;
+    padding: 100px;
+    text-align: center;
+}
+.top{
+      padding:10px;
+}
+.top h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500 ;
+    font-size:30px ;
+    padding: 20px;
+    color: rgb(92, 85, 85);
+
+}
+.top p{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    color: rgb(151, 148, 148);
+    font-size: 15px;
+    padding: 10px;
+    word-spacing: 1px;
+
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:100px;
+    text-align: left;
+}
+.bottom .pic{
+    padding: 20px;
+}
+.pic img{
+    height: 300px;
+    width: 300px;
+}
+.pic h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pic p{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:#979899;
+    padding-bottom: 10px;
+
+}
+.pic hr{
+    color:#979899;
+    width: 100%;
+}
+.pic h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:#979899;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+/* ++++++++++++++++++++++++++++++
+    SECTION 3 ENDS
++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++
+    SECTION 4 STARTS
++++++++++++++++++++++++++++++++++ */
+.sec4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    background-color: #fb6d9d;
+}
+.sec4 .no_ob h4{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.free_trial button{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 50px;
+    background-color:#a7546f;
+    color: rgb(248, 243, 243);
+    border: none;
+}
+/* ++++++++++++++++++++++++++++++
+    SECTION 4 ENDS
++++++++++++++++++++++++++++++++++ */
+
+/* ++++++++++++++++++++++++++++++
+    SECTION 5 STARTS
++++++++++++++++++++++++++++++++++ */
+.sec5{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+}
+.sec5 .achoo p{
+    font-size: 20px;
+    font-weight: bold;
+    color:#1b2a3b ;
+    font-family: 'Inter', sans-serif;
+
+}
+.sec5 .achoo a{
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 187x;
+    font-weight: bold;
+    color:#979899;
+
+
+}
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.icons i{
+    color: white;
+    font-size: 20px;
+    background-color:#1b2a3b ;
+    border-radius: 50px;
+    padding: 10px;
+}
+hr{
+    width: 80%;
+    color:#979899;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.logo1{
+    font-family: 'PT Mono', monospace;
+    text-decoration:none;
+    font-size: 35px;
+    font-weight: BOLD;
+    color:#1b2a3b;
+
+}
+.tg{
+    font-family: 'PT Mono', monospace;
+    text-decoration:none;
+    font-size: 18px;
+    font-weight: BOLD;
+    color:#979899;
+
+
+}
